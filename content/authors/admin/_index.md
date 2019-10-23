@@ -1,44 +1,48 @@
 ---
 authors:
 - admin
-bio: I am Muhammad, currently a PhD student at the University of Twente. I am mainly intereseted in football and then data science and machine learning.
+bio: My research interests include distributed robotics, mobile computing and programmable
+  matter.
 education:
   courses:
-  - course: PhD in Computer Science
-    institution:  University of Twente
-    year: 2019
-
-email: "m.cnakhaee@utwente.nl"
+  - course: PhD in Artificial Intelligence
+    institution: Stanford University
+    year: 2012
+  - course: MEng in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2009
+  - course: BSc in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2008
+email: ""
 interests:
-- Machine Learning
-- Explainable Data Science
-- Social Network Analysis
-name: Muhammad Chenariyan Nakhaee
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
+name: Nelson Bighetti
 organizations:
-- name: University of Twente
-  url: "https://personen.utwente.nl/m.cnakhaee"
-role: PhD Student
+- name: Stanford University
+  url: ""
+role: Professor of Artificial Intelligence
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/m_cnakhaee
+  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=vbXQurwAAAAJ&hl=en
+  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/mcnakhaee
-- icon: instagram
-  icon_pack: fab
-  link: https://instagram.com/mcnakhaee
+  link: https://github.com/gcushen
 superuser: true
 user_groups:
 - Researchers
 - Visitors
 ---
 
-I am Muhammad and I am currently a PhD student at the University of Twente. My main interest is football! Besides that I also love data and finding pattern from data . 
+Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
