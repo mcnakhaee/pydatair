@@ -81,11 +81,23 @@ Test عنوان یک
 
  </p>
 
-  <p dir="RTL">  من محمد هستم
+  <p dir="RTL">  من محمد هستم</p>   
 
 
 
-</p>  
+
+
+
+
+
+
+
 
   <p dir="RTL">Najib said "السلام عليكم" (as-salaam alaykum] to me.</p>  
+
+```
+<div style="text-align: right"> من محمد هست </div>
+```
+
+
 
