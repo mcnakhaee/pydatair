@@ -95,9 +95,11 @@ Test عنوان یک
 
   <p dir="RTL">Najib said "السلام عليكم" (as-salaam alaykum] to me.</p>  
 
-```
+```html
 <div style="text-align: right"> من محمد هست </div>
 ```
 
+```HTML
 
+```
 
