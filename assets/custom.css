@@ -71,10 +71,12 @@ h1 {
 
 .portrait-title h2 {
   color: #333;
+direction: rtl;
 }
 
 #about .col-12.col-lg-8 {
   padding-top: 30px !important;
+direction: rtl;
 }
 
 .network-icon li:hover {

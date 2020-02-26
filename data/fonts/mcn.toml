@@ -2,13 +2,13 @@
 name = "jim"
 
 # Optional Google font URL
-google_fonts = "Scheherazade"
+google_fonts = "Vibes"
 
 # Font families
-heading_font = "Scheherazade"
-body_font = "Scheherazade"
-nav_font = "Scheherazade"
-mono_font = "Scheherazade"
+heading_font = "Vibes"
+body_font = "Vibes"
+nav_font = "Vibes"
+mono_font = "Vibes"
 
 # Font size
 font_size = "18"
