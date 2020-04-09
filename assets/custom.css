@@ -1,5 +1,9 @@
 /* links */
-
+@font-face {
+  font-family: yekan;
+  src:url('/fonts/BYekan.ttf') format(‘truetype’);   
+       
+}
 a {
   color: #2aa198;
   cursor: pointer;
@@ -54,17 +58,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
   font-weight: 400;
   direction: rtl;
+  font-family: "yekan";
 }
 
 body {
   color: #333;
   font-size: 0.9rem;
   direction: rtl;
+  font-family: "yekan";
 }
 
 h1 {
   font-size: 2rem;
   direction: rtl;
+  font-family: "yekan";
 }
 
 /* home page */
