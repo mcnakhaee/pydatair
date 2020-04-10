@@ -1,14 +1,14 @@
 # Font style metadata
-name = "jim"
+name = "mcn"
 
 # Optional Google font URL
-google_fonts = "Vibes"
+google_fonts = "Tajawal"
 
 # Font families
-heading_font = "Vibes"
-body_font = "Vibes"
-nav_font = "Vibes"
-mono_font = "Vibes"
+heading_font = "Tajawal"
+body_font = "Tajawal"
+nav_font = "Tajawal"
+mono_font = "Tajawal"
 
 # Font size
 font_size = "18"
