@@ -13,7 +13,7 @@ navbar:
       href: https://github.com/mcnakhaee
     - icon: fa fa-twitter
       href: https://twitter.com/?lang=en
-repository_url: https://github.com/mcnakhaee/4RShanbe
+repository_url: https://github.com/mcnakhaee/pydatair
 creative_commons: CC BY
 output: 
   distill::distill_article:
