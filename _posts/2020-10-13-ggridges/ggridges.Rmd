@@ -1,0 +1,80 @@
+---
+title: "رسم نمودارهای Ridge در R"
+description: |
+  A short description of the post.
+author:
+  - name: mcnakhes
+    url: mcnakhaee.com
+date: 10-13-2020
+preview: distill-preview.png
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 4
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### نمودارهای Ridge چه هستند؟
+
+```{r echo = T, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggridges)
+library(delgosha)
+library(ggthemes)
+#import_all_fonts()
+
+```
+
+```{r,include=TRUE}
+top_artists <- dadegan::spotify %>% 
+  filter(artist_name %in% c('Mohammadreza Shajarian',
+                                  'Homayoun Shajarian',
+                                  'Alireza Eftekhari',
+                                  'Shahram Nazeri',
+                                  'Hesameddin Seraj',
+                                  'Alireza Ghorbani')) 
+```
+
+
+```{r fig.width=10}
+
+top_artists%>% 
+  ggplot() +
+  geom_density_ridges(aes(x = energy,y = artist_name_farsi),fill = '#2a9d8f') +
+  labs(x = 'انرژی',y = '',title = 'میزان انرژی آهنگ های خواننده های مطرح سنتی') +
+  theme_ridges() +
+  theme_fa()
+```
+```{r fig.width=10}
+top_artists%>% 
+  ggplot() +
+  geom_density_ridges(aes(x = energy,y = artist_name_farsi),fill = '#2a9d8f',scale = 1,alpha = 0.7) +
+  labs(x = 'انرژی',y = '',title = 'میزان انرژی آهنگ های خواننده های مطرح سنتی') +
+  theme_ridges() +
+  theme_fa()
+```
+
+
+```{r fig.width=10}
+top_artists%>% 
+  ggplot() +
+  geom_density_ridges(aes(x = energy,y = artist_name_farsi),fill = '#2a9d8f',scale = 1,alpha = 0.7) +
+  geom_density_ridges(aes(x = valence,y = artist_name_farsi),fill = '#e63946',scale = 1,alpha = 0.7) +
+  labs(x = '',y = '',title = 'مقایسه میزان شادی و انرژی آهنگ های خواننده های مطرح سنتی') +
+  theme_ridges() +
+  theme_fa()
+```
+
+```{r fig.width=10}
+top_artists%>% 
+  ggplot() +
+  geom_density_ridges_gradient(aes(x = loudness,y = artist_name_farsi,fill = stat(x)),scale = 1,alpha = 0.7) +
+  scale_fill_gradient2_tableau() +
+  labs(x = '',y = '',title = 'مقایسه بلندی آهنگ های خواننده های مطرح سنتی') +
+  theme_ridges() +
+  theme_fa()
+```
+

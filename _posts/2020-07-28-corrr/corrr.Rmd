@@ -1,0 +1,49 @@
+---
+title: "همبستگی"
+description: |
+  همبستگی متغیرها
+author:
+  - name: mcnakhes
+    url: mcnakhaee.com
+date: 07-28-2020
+editor_options: 
+  chunk_output_type: consoles
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    self_contained: true
+categories: 
+  - مصورسازی
+  - ggplot2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+#devtools::install_github("dgrtwo/unvotes")
+```
+
+### مقدمه
+
+
+### کتابخانه های مورد نیاز
+```{r include = TRUE,message=FALSE, warning=FALSE,echo=TRUE}
+library(corrr)
+library(tidyverse)
+library(unvotes)
+```
+
+```{r,echo=TRUE}
+names(un_votes)
+```
+
+```{r}
+set_1 <- un_votes %>% 
+  filter(country_code %in% c('US','CA','CU')) %>% 
+           pivot_wider(c(rcid),names_from = country_code   ,values_from = vote) 
+head(set_1) 
+```
+

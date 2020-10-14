@@ -1,0 +1,29 @@
+---
+title: "نگاهی به روندهای جستجو در گوگل (Google Trends)"
+description: |
+  
+author:
+  - name: mcnakhes
+    url: mcnakhaee.com
+date: 08-11-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r message=FALSE, warning=FALSE}
+library(trendyy)
+library(tidyverse)
+```
+
+```{r eval=FALSE, include=FALSE}
+trendy(search_terms = c('Iran')) %>% 
+  get_interest()
+trendyy::get_interest_country()
+gtrends(keyword =  )
+```
+

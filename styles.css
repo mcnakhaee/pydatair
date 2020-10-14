@@ -1,0 +1,78 @@
+h1,h2,h3,h4,h5,h6, title, body {
+  direction: rtl;
+  
+}
+
+
+d-code {
+  direction: ltr;
+  color: #383838;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+code {
+  font-family: 'Fira Mono', sans-serif;
+  color: #383838;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.distill-site-nav {
+  color: #00f5d4;
+  background-color: #14213d;
+  font-size: 16px;
+  font-weight: 300;
+  direction: rtl;
+}
+
+.distill-site-nav a {
+  color: inherit;
+  text-decoration: none;
+  direction: rtl;
+}
+
+.distill-site-nav a:hover {
+  color: white;
+  direction: rtl;
+}
+
+.distill-site-header {
+  direction: rtl;
+}
+
+.distill-site-footer {
+}
+
+
+.posts-list .description h2
+.posts-list .description p {
+  
+  direction: rtl;
+}
+
+.posts-list {
+  margin-top: 60px;
+  margin-bottom: 24px;
+  direction: rtl;
+
+}
+
+@media print {
+  .distill-site-nav {
+    display: none;
+  }
+}
+
+  
+.d-article {
+  font-weight: 300;
+  direction: rtl;
+}
+
+
+.d-article iframe {
+  border: none;
+  direction: rtl;
+}
+
