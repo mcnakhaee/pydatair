@@ -1,7 +1,7 @@
 name: "Pydata.ir"
 title: "Pydata.ir"
 description: |
-  4Rshanbe
+  pydatair
 output_dir: "_site"
 navbar:
   right:
