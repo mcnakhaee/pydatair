@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "path": "posts/2020-10-14-my-first-post/",
+    "title": "my first post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Unknown",
+        "url": {}
+      }
+    ],
+    "date": "2020-10-14",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-10-14T14:05:08+02:00",
+    "input_file": "my-first-post.utf8.md"
+  },
+  {
+    "path": "posts/2020-10-13-ggridges/",
+    "title": "رسم نمودارهای Ridge در R",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "mcnakhes",
+        "url": "mcnakhaee.com"
+      }
+    ],
+    "date": "2020-10-13",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-10-14T14:05:37+02:00",
+    "input_file": "ggridges.utf8.md"
+  },
+  {
+    "path": "posts/2020-08-11-google-trands/",
+    "title": "نگاهی به روندهای جستجو در گوگل (Google Trends)",
+    "description": {},
+    "author": [
+      {
+        "name": "mcnakhes",
+        "url": "mcnakhaee.com"
+      }
+    ],
+    "date": "2020-08-11",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-10-14T14:05:55+02:00",
+    "input_file": "google-trands.utf8.md"
+  }
+]
